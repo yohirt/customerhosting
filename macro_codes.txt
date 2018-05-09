@@ -1,0 +1,2 @@
+SELECT * FROM customer INNER JOIN customer_service_start ON customer.id_customer = customer_service_start.id_customer
+INNER JOIN services ON customer_service_start.id_service = services.ID_services;
